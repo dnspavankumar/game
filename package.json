@@ -15,7 +15,10 @@
   ],
   "contributors": [],
   "scripts": {
-    "dev": "vite --mode development"
+    "dev": "vite --mode development",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "vite build && gh-pages -d dist"
   },
   "devDependencies": {
     "@babel/core": "^7.19.3",
@@ -51,3 +54,4 @@
     "tweakpane-plugin-media": "github:leochocolat/tweakpane-plugin-media"
   }
 }
+
